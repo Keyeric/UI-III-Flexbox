@@ -124,3 +124,32 @@ address a {
 h6 {
     text-align: center;
 }
+
+
+/* SERVICES CSS STARTS HERE */
+
+.services-header-img {
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.skills div {
+    border: 1px solid black;
+    width: 45%;
+    background: lightgrey;
+}
+
+.serviceFoot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceFoot div {
+    width: 50%;
+}
