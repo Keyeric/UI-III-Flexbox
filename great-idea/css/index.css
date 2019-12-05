@@ -2,12 +2,12 @@
 
 * {
     box-sizing: border-box;
-    border: 0 font: inherit;
+    border: 1px solid red;
+    font: inherit;
     padding: 0;
     margin: 0;
     max-width: 100%;
     font-size: 100%;
-    vertical-align: baseline;
 }
 
 html,
@@ -32,43 +32,44 @@ h5 {
 
 /* Nav */
 
-nav a {
-    color: grey;
-    padding: 1%;
-    margin: 0 3%
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 3% auto;
 }
 
-.divLogo .logo {
-    margin-top: -1.5%;
-    padding-left: 90%;
+nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+.divLogo {
+    display: flex;
 }
 
 
 /* top */
 
-.top {
-    margin-top: 20px;
-    text-align: center;
+.start {
+    border: 10px dashed magenta;
     display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
 }
 
-.top #divImg {
-    display: flex;
-    height: 500px;
-    width: 49%;
-    vertical-align: middle;
+#innovation {
+    margin-top: 3%;
 }
 
-.top #divImg img {
-    margin-top: 8%;
+#innovation h1 {
+    font-size: 80px;
 }
 
 .top #innovation {
-    vertical-align: middle;
-    font-size: 80px;
-    display: flex;
-    width: 49%;
-    font-weight: bold;
+    text-align: center;
 }
 
 .top #innovation a {
