@@ -52,7 +52,7 @@ nav a {
 }
 
 .top #divImg {
-    display: inline-block;
+    display: flex;
     height: 500px;
     width: 49%;
     vertical-align: middle;
@@ -65,7 +65,7 @@ nav a {
 .top #innovation {
     vertical-align: middle;
     font-size: 80px;
-    display: inline-block;
+    display: flex;
     width: 49%;
     font-weight: bold;
 }
@@ -88,7 +88,7 @@ nav a {
 
 .twoCont div {
     text-align: center;
-    display: inline-block;
+    display: flex;
     width: 49%;
     margin: 5% auto;
 }
@@ -111,7 +111,7 @@ nav a {
 
 .threeCont div {
     text-align: center;
-    display: inline-block;
+    display: flex;
     width: 30%;
     margin: auto;
 }
